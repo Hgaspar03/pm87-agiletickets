@@ -12,5 +12,6 @@ public class Sala {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-
+	@SuppressWarnings("unused")
+	private String numero;
 }
